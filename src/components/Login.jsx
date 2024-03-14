@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
-import { Modal } from 'react-bootstrap';
+import { CloseButton, Modal } from 'react-bootstrap';
 
 import Register from './Register';
 
@@ -94,7 +94,7 @@ const Login = () => {
        
        
             <Modal show={show} onHide={handleClose} animation={false}>
-        
+            <CloseButton onClick={handleClose} style={{marginTop:'10px',marginLeft:'10px'}}/>
         <Modal.Body>
          <Register/>
         </Modal.Body>

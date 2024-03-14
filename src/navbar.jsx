@@ -50,7 +50,7 @@ const Navbara = () => {
             <Form.Control
               type="search"
               placeholder="Search"
-              className="me-2 input"
+              className="me-2 inti"
               aria-label="Search"
               
             />
@@ -62,7 +62,7 @@ const Navbara = () => {
     </Navbar>
     <div>
     <Modal show={show} onHide={handleClose} animation={false}>
-        
+    <CloseButton onClick={handleClose} style={{marginTop:'10px',marginLeft:'10px'}}/>
         <Modal.Body>
             <Login />
         </Modal.Body>

@@ -19,7 +19,7 @@ const Fot = () => {
             <Form.Control
               type="search"
               placeholder="Enter Email"
-              className="me-2 input"
+              className="me-2 inti"
               aria-label="Email"
             />
             <Button variant="info" className='me-2' style={{color:'white',fontWeight:'700'}}>Subscribe</Button>

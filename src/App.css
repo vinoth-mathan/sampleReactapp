@@ -8,8 +8,8 @@
    
 }
 .box{
-    background-color: rgb(65, 19, 126);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(26, 25, 25);
     width: 350px;
     height: 100%;
     border-radius: 10px;
@@ -28,7 +28,6 @@
 } */
 h4{
     width: 100%;
-    background-color: #21053d;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -107,10 +106,29 @@ h4{
     color:yellow;
 }
 .input{
+    width: 100%;
     background: transparent !important;
-    color: white !important;  
+    color: rgb(44, 43, 43) !important; 
+    border: 2px solid black;
+    /* border-top: none;
+    border-left: none;
+    border-right: none;  */
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 4px 6px rgb(148, 146, 146);
 }
-::placeholder{
-    color: white !important;
+.inti{
+    width: 100%;
+    background: transparent !important;
+    color: rgb(44, 43, 43) !important; 
+    border: 2px solid black;
+    color: aliceblue !important;
+}
+.input::placeholder{
+    color: rgb(24, 22, 22) !important;
     font-size: 0.9rem;
+}
+.inti::placeholder{
+    color: rgb(255, 255, 255) !important;
+    font-size: 0.9rem; 
 }
