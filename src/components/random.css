@@ -1,0 +1,12 @@
+
+.start{
+    background: linear-gradient(to right, transparent, rgb(238, 180, 174));
+}
+.about{
+    background: linear-gradient(to right, transparent, rgb(133, 218, 175));
+}
+.spn{
+    font-size:1.5rem;
+    font-weight: 900;
+    color: rgb(182, 6, 6);
+}
