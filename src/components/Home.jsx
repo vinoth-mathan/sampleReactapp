@@ -17,22 +17,27 @@ const Home = () => {
       e.preventDefault()
       inputRef.current.focus() 
 
-      if(user===""){
-          console.log('empty');
+      // if(user===""){
+      //     console.log('empty');
+      // }
+      //  else{
+      //     setUser2((previous)=>[...previous,user])
+      //     setUser(' ')
+      //  }  
+      if(user !== ''){
+        setUser2((previous)=>[...previous,user])
+            setUser(' ')
       }
-       else{
-          setUser2((previous)=>[...previous,user])
-          setUser(' ')
-       }  
+      
   }
   return (
       <>
-          <div style={{ backgroundImage: ` url(${somepic})`,width:'100%',height:'100vh',marginBottom:'0px',marginTop:'50px',backgroundRepeat:'no-repeat',backgroundSize:'cover' }} className='img img-fluid'>
+          <div style={{ backgroundImage: ` url(${somepic})`,width:'100%',marginBottom:'0px',marginTop:'50px',backgroundRepeat:'no-repeat',backgroundSize:'cover' }} className='img img-fluid'>
       <Container>   
         <Row>
           <Col></Col>
           <Col style={{marginTop:'80px'}} md={8}>
-            <h2 style={{color:'white',fontSize:'3rem',lineHeight:'1.3',letterSpacing:'3px',fontWeight:'600',fontStyle:'italic'}}>What <span style={{color:'rgb(6, 182, 114)'}}>great marketing</span> <br /> feels like fro your business...</h2>
+            <h2 style={{color:'white',fontSize:'2rem',lineHeight:'1.3',letterSpacing:'3px',fontWeight:'600',fontStyle:'italic'}}>What <span style={{color:'rgb(6, 182, 114)'}}>great marketing</span> <br /> feels like fro your business...</h2>
           </Col>
           <Col></Col>
           
