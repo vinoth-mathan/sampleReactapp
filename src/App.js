@@ -7,7 +7,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 // import Sample from './components/sample';
-import Useeft from './hooks/Useeft';
+// import Useeft from './hooks/Useeft';
+ import Reducer from './hooks/Reducer';
 // import { BrowserRouter,Route,Routes } from 'react-router-dom';
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
   return (
       <>
         <div>
-          <Useeft/>
+          <Reducer/>
         </div>
       </>
   )
